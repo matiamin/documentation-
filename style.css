@@ -1,6 +1,6 @@
 
 body {
-  background-color: #549ABE;
+  background-color: #549DBE;
 }
 
 span {
@@ -8,17 +8,36 @@ span {
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 95px;
+  font-family: Open Sans;
 }
+
+p {
+  font-family:monospace;
+  font-size: 20px;
+  color:#262626;
+}
+
+h3 {
+  color:#262626;
+  margin-top: -12px;
+}
+
+h3:hover {
+  color: white;
+}
+
+a {
+ text-decoration: none;
+}
+.middle > .column {
+ height: 400px;
+}
+
 
 .row, .column {
   box-sizing: border-box;
 }
-
-/*Clear-fix, but doesn't function in IE */
- /*.row {
-   overflow: auto;
- }*/
 
 /*Clear-fix so that rows can containt content*/
 .row:before, .row:after {
@@ -29,7 +48,6 @@ h1 {
 .row:after {
   clear: both;
 }
-/*#D8524D  Red*/
 
 /*floating columns so that inside the body row, all columns are inline */
 .column {
@@ -37,15 +55,7 @@ h1 {
   float: left;
   text-align: center;
   width: 250px;
-  margin: .5% ;
-}
-
- h3 {
-   color:black;
- }
-
-.middle > .column {
-  height: 400px;
+  margin: 0% ;
 }
 
 /* containing images inside their columns with specific height */
