@@ -3,12 +3,17 @@ body {
   background-color: #549DBE;
 }
 
+
+.index_body {
+  background-color: #9DC459;
+}
+
 span {
   color: white;
 }
 
 h1 {
-  font-size: 95px;
+  font-size: 50px;
   font-family: Open Sans;
 }
 
@@ -16,6 +21,8 @@ p {
   font-family:monospace;
   font-size: 20px;
   color:#262626;
+  animation: rotateWordsFirst 18s linear infinite 0s;
+
 }
 
 h3 {
