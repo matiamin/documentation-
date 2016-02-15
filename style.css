@@ -3,6 +3,13 @@ body {
   background-color: #549DBE;
 }
 
+.menu {
+
+  width: 100px;
+  height: 100%;
+
+}
+
 span {
   color: white;
 }
@@ -22,11 +29,12 @@ h3 {
   width: 300px;
   height: 300px;
   border: 2px solid white;
+  margin: 0px 200px;
 }
 
 h3:hover {
   color: white;
-  background-color: red;
+  background-color: yellow;
 }
 
 a {
