@@ -3,11 +3,6 @@ body {
   background-color: #549DBE;
 }
 
-
-.index_body {
-  background-color: #9DC459;
-}
-
 span {
   color: white;
 }
@@ -20,28 +15,31 @@ h1 {
 p {
   font-family:monospace;
   font-size: 20px;
-  color:#262626;
-  animation: rotateWordsFirst 18s linear infinite 0s;
-
+  text-align: center;
 }
 
 h3 {
-  color:#262626;
-  margin-top: -12px;
-  padding-top: 10px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
 }
 
 h3:hover {
   color: white;
+  background-color: red;
 }
 
 a {
  text-decoration: none;
 }
 .middle > .column {
- height: 400px;
+ height: 300px;
+ width: 300px;
 }
 
+.footer > .column {
+  margin-top: 400px;;
+}
 
 .row, .column {
   box-sizing: border-box;
@@ -63,16 +61,9 @@ a {
   float: left;
   text-align: center;
   width: 250px;
-  margin: 0% ;
+  margin: 0;
 }
 
-/* containing images inside their columns with specific height */
-img {
-  max-width: 100%;
-  width:  120px;
-  height: 120px;
-  align-items: center;
-}
 
 .footer > .column {
   width: 100%;
